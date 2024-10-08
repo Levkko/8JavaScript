@@ -1,7 +1,3 @@
-let name = "Ілля";
+const userName = prompt("Як вас звати?", "");
 
-alert( `привіт ${1}` ); // Привіт 1
-
-alert( `привіт ${"name"}` ); // Привіт name
-
-alert( `привіт ${name}` ); // Привіт Ілля
+alert(userName);
