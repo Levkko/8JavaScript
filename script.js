@@ -1,10 +1,7 @@
-let name = "Іван";
-let admin = name;
+let name = "Ілля";
 
-alert(admin);
+alert( `привіт ${1}` ); // Привіт 1
 
-let ourPlanetName = "Земля";
-let currentUserName = "Левко";
+alert( `привіт ${"name"}` ); // Привіт name
 
-const BIRTHDAY = '17.05.2008'; 
-const age = someCode(BIRTHDAY); 
+alert( `привіт ${name}` ); // Привіт Ілля
